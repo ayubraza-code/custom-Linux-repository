@@ -1,0 +1,6 @@
+#bin/bash
+LOGS=/tmp/rsync.log
+DESTHOST=seindmplst01
+
+rsync -avzhz /nas/home/malam1 root@DESTHOST /nas/home/malam1/ >> /tmp/rsync.log
+
